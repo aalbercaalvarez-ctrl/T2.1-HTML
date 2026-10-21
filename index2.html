@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Mi pelicula favorita</title>
+  <h3> Made by Adrian Alberca</h3>
+  <h3>Sinópsis de Eterno resplandor de una mente sin recuerdos</h3>
+  <h3> 14/10/2026</h3>
+  <style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: 300px; /* only for demonstration, should be removed */
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  height: 300px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+<header>
+<h1> <i>Mi peli favorita</i></h1> 
+  <h2> Adrian Alberca</h2>
+</header>
+<article>
+<div>
+    <p> Mi pelicula favorita es <em><mark>"Eterno Resplandor de una Mente sin Recuerdos"</mark></em></p>
+    <img src="eternal sunshine.jpg" width="365" height="547" alt="Eterno Resplandor"/>
+    </div>
+    <div>
+    <strong><p>Me encanta esta película porque explora temas como: El amor, los recuerdos que creas y decides conservarlos o intentas olvidarlos por un profundo dolor.</p></strong>
+    <h2> Algunos datos:</h2> 
+    <ul>
+    <li>Dirigida por: Michel Gondry y fue escrita por: Charlie Kaufman</li>
+    <li>Lugar de garbación: Estados Unidos</li>
+    <li>Año: Fue publicada en el año 2004</li>
+    </ul>
+</article>
+<section>
+    <table>
+    <thead>
+      <tr>
+        <th>Actores principales</th>
+        <th>Actores Secundarios</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Jim Carrey</td>
+        <td>Tom Wilkinson</td>
+      </tr>
+      <tr>
+        <td>Kate Winslet</td>
+        <td>David Cross</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <td>Kirsten Dunst</td>
+        <td>Mark Ruffalo </td>
+      </tr>
+    </tfoot>
+  </table>
+</section>
+  </div>
+  <div> Algunos referentes a la película:
+     <img src="eternal sunshine 2.jpg" width="300" height="166" alt="Eterno Resplandor"/>
+  <a href="https://www.youtube.com/watch?v=Lv4BNEn4kKo" target="_self">Trailer</a>
+  <a href="https://www.youtube.com/watch?v=3J1QHWBeH6I" target="_blank">Resumen</a>
+</div>
+<footer>
+  <p>&copy; 2026 Mi pelicula favorita.Proyecto.</p>
+</footer>
+  </body>
+</html>
